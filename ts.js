@@ -50,7 +50,7 @@ export default new class Tosho {
   /** @type {import('./types.js').Accuracy} */
   accuracy = 'High'
 
-  url = atob('MTk1LjE1NC4yNDMuNTk=')
+  url = atob('aHR0cHM6Ly8xOTUuMTU0LjI0My41OQ==')
 
   buildQuery ({ resolution, exclusions }) {
     let query = `&qx=1&q=!("${exclusions.join('"|"')}")`
